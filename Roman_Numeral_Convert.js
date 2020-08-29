@@ -19,13 +19,14 @@ var romanToNum = {
 var roman="";
 
 for (var key in romanToNum){
-    while (num >= romanToNum [key]{
+    while (num >= romanToNum [key]){
         roman += key;
         num -= romanToNum[key];
-        console.log(" Num is decreased =", num)
+        console.log(" Num is decreased :", num)
     }
 }
 
+return roman;
 
 }
 convertToRoman (8);
